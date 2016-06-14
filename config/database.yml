@@ -1,0 +1,15 @@
+development:
+  host: 
+  port: 
+  database: 
+  username: 
+  password: 
+  max_connections: 10
+
+production: 
+  host: 
+  port: 
+  database: 
+  username: 
+  password: 
+  max_connections: 30

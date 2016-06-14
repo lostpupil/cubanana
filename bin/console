@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'pry'
+require './app'
+Pry.start
