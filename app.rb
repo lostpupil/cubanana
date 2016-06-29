@@ -8,7 +8,7 @@ require 'rack/protection'
 
 DATABASE_CONFIG = YAML.load_file('./config/database.yml')
 
-if ENV['ST_ENV'] == 'production'
+if ENV['RACK_ENV'] == 'production'
   DB = Sequel.postgres(DATABASE_CONFIG['production'])
 else
   DB = Sequel.postgres(DATABASE_CONFIG['development'])
