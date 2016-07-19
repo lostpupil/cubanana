@@ -11,3 +11,8 @@ task :console do
   require './app'
   Pry.start
 end
+
+task :test do
+  exec "cutest test/*.rb"
+end
+

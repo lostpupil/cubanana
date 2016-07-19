@@ -1,11 +1,12 @@
 source 'https://gems.ruby-china.org/'
 
 # rack related gems
-gem 'rack'
+gem 'rack-test'
 gem 'rack-cors'
 gem 'rack-protection'
 
 gem 'cuba'
+gem 'cutest'
 gem 'pg'
 gem "sequel"
 
