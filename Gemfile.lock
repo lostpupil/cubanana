@@ -2,23 +2,28 @@ GEM
   remote: https://gems.ruby-china.org/
   specs:
     awesome_print (1.7.0)
+    clap (1.0.0)
     coderay (1.1.1)
-    cuba (3.7.0)
-      rack (~> 1.6.0)
-    daemons (1.2.3)
+    cuba (3.8.0)
+      rack (>= 1.6.0)
+    cutest (1.2.3)
+      clap
+    daemons (1.2.4)
     eventmachine (1.2.0.1)
     method_source (0.8.2)
-    pg (0.18.4)
-    pry (0.10.3)
+    pg (0.19.0)
+    pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rack (1.6.4)
+    rack (2.0.1)
     rack-cors (0.4.0)
     rack-protection (1.5.3)
       rack
-    sequel (4.35.0)
-    shotgun (0.9.1)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    sequel (4.38.0)
+    shotgun (0.9.2)
       rack (>= 1.0)
     slop (3.6.0)
     thin (1.7.0)
@@ -32,14 +37,15 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   cuba
+  cutest
   pg
   pry
-  rack
   rack-cors
   rack-protection
+  rack-test
   sequel
   shotgun
   thin
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
