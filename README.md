@@ -78,4 +78,4 @@ end
 
 ## Task
 
-You will have 2 rake task called server and console, you can run a server by `rake server` or just `rake`, also, you can run a console which load all the models by `rake console`
+You will have 3 rake task called server and console, you can run a server by `rake server` or just `rake`, also, you can run a console which load all the models by `rake console`, run the test by `rake test`
