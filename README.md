@@ -28,6 +28,7 @@ V1.define do
   end
   on post do
   end
+end
 ```
 
 ## Define a plugin
@@ -78,4 +79,10 @@ end
 
 ## Task
 
-You will have 3 rake task called server and console, you can run a server by `rake server` or just `rake`, also, you can run a console which load all the models by `rake console`, run the test by `rake test`
+Add some database tasks.
+
+* rake db:generate 
+* rake db:migrate
+* rake db:version
+* rake db:rollback
+* rake db:reset
