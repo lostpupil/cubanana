@@ -7,8 +7,16 @@ gem 'rack-protection'
 
 gem 'cuba'
 gem 'cutest'
-gem 'pg'
+# to use mysql 
+gem 'mysql2'
+# to use pg
+# gem 'pg'
+
 gem "sequel"
+
+# api related
+gem 'bcrypt'
+gem 'jwt'
 
 group :development do
   gem 'pry'
