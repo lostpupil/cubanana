@@ -2,6 +2,7 @@ GEM
   remote: https://gems.ruby-china.org/
   specs:
     awesome_print (1.7.0)
+    bcrypt (3.1.11)
     clap (1.0.0)
     coderay (1.1.1)
     cuba (3.8.0)
@@ -10,8 +11,9 @@ GEM
       clap
     daemons (1.2.4)
     eventmachine (1.2.0.1)
+    jwt (2.1.0)
     method_source (0.8.2)
-    pg (0.19.0)
+    mysql2 (0.4.10)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -36,9 +38,11 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  bcrypt
   cuba
   cutest
-  pg
+  jwt
+  mysql2
   pry
   rack-cors
   rack-protection
@@ -48,4 +52,4 @@ DEPENDENCIES
   thin
 
 BUNDLED WITH
-   1.13.1
+   1.16.0
